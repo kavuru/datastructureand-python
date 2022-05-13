@@ -1,0 +1,81 @@
+1.Describe python's built-in data structure?
+ans.Data structures are basically just that-they are structures which can hold some data together .
+    In otherwords,they arare  e used to store a collection of realted data .
+    There are four built -in data structures in python- lists, Dictionary, tuple,set.
+    list: lists in python are one of the most versatile collection object types availble.
+          The other two types are dictionaries and tuples ,but they are really more like 
+           variations of lists.
+           	lists can be used for any type of object, from numbers, and string to more lists.
+    
+    Dictionary:In python, dictionary is similar to hash or maps in other languages . 
+                It consits of key value pairs.The value can be accessed by unique key in the 
+                dictionary.
+                keys are unique and immutable objects.
+
+
+     Tuple:python tuples work exactly like python lists except they are immutable,they can't be 
+           changed in place .they are normally written inside parentheses to distinguish them from
+          lists(which use square brackets)
+
+
+
+2.Describe  the Python user data structure?
+ans.In computer science, a data structure is a logical way of organizing data in computer memory so that it can be used effectively
+    A data structure allows data to be added, removed,stored,and maintained in structured manner.
+    python supports two types of data structures:
+    *non primitive data types 
+     *primitive data types
+     user defined data structures:data structures that aren't supported by python but can be programmed to reflect the same 
+     functionality using concepts supported by data structure that can implemted
+     linked list
+     stack
+     queue
+     tree
+    graph
+
+
+3.Describe the stages involved in writing an algorthim?
+ans.Three main stages are involved in creating an algorthim: data input, data processing,and results output. The order 
+    is specific cannot be changed.
+    
+    consider a computer program that finds the average value of three numbers.
+     First the program must prompt the  user to enter the numbers(Data input).
+      next the program calculates the average values of the numbers(data processing).
+     finally,the program displays the result on the computer's screen(result output).
+
+
+4.Outline the components of good algorthim?
+ans.Delay:
+    This is used to buffer a signal so you  can time algin it to some other operation .
+     for example ,if you average nine samples and you want to subtract the average from 
+     the original singal, you can use a delay of five samples of the original so you can
+     use values that are itself plus the four samples before and four samples after.
+    
+    Attenuate:
+         	Attenuation is a simple but useful operation that can scale a singal down before it is
+                amplifed in some fashion with filtering or some other operation that add gain to the signal.
+                Typically attenuation is measured in decibles (dB).
+
+    Sliding Window Average:
+                           sliding Window AVerage is a Technique of calculting a continous average of the incoming signal over a 
+                           given window of samples.
+
+    Rectify: This is a very simple concept which is to change the sign of the values to all positive or all negative so they are additive.
+             in this case i used rectification to change all values to positive.
+    
+
+     compression: In the DSP world compression is typically defined as compressing the amplitudes to keep them in a close range.
+     
+    FIR Filter:finte impluse Response(FIR) is a digital filter that is implemented via a number of taps,each with its assigned polymial coefficient.
+               the number of taps is know as the filter's order
+
+5.Describe the Tree traversal method?
+ans.Tree traversal means visting each node of the tree. the tree is a non linear data structure , and there fore  its traversal is different 
+     from other linear data structures .There is only one way to visit each node /element in linear data structures, i.e.starting from the first 
+    value and traversing in a linear order .
+
+6.Explain the difference between inorder and postorder tree traversal?
+ans.IN a binary tree, inorder traversal the order of traversing the nodes is:
+    Left node->root->rightnode
+    postordertraversal
+    Left node->rightnode->rootnode
