@@ -1,0 +1,51 @@
+take1.Use examples to explain the sorting algorthims.
+ans:A Sorting Algorithm is used to arrange a given array 
+    or list elements according to a comparision operator on the elements.
+    The comparison operator is used to decide the new order of element in the respective
+    data structure.
+    
+    	FOR EXAMPLE:The  below list of characters is sorted in increasing order of their ASCll values.
+                     That is, the character with lesser ASCll value will be placed first than the character 
+                     with higher ASCll valve.
+            
+            g e e k s f o r g e e k s =====> e e e e f g g k k o r s s
+                   input                        output
+
+
+2. What Are the  Benefits of Stacks?
+ans.Benefits of stack
+    * stack is easy to learn and implement for beginners.
+    *stacks are  used  to solving problems that work on recursion.
+     *In stack we can easily add or remove elements from stack.
+     *it allows you to control how memory is allocated and deallocated.
+
+3.what is difference between a stack and a queues?
+ans:The primary difference between Stack and Queue Data Structure is that Stack follows LIFO 
+     while Queue follows FIFO data structure type.
+     *The process of inserting an element in the stack is known as the push operation.
+     *The process of  inserting an element into a queue  is known as the enqueue operaton.
+
+4.What are the different forms of queues?
+ans:There are five different types of queues which are used in different scenarios 
+    They are:
+     1.circular Queue:Circular Queue is a linear data structure in which the operations are performed
+                       based on FIFO PRINCIPLE and the last postion is connected back to the frist postion
+                        to make a circle.
+     2.INPUT RESTRICTED QUEUE:IN this type of Queue , the input can be taken from one side only and deletion of element
+                              can be done from oth side. this kind of queue does not follow FIFO.
+     3.OUTPUT RESTRICTED QUEUE: In this type of Queue,the input can taken from both sides and the deletion of the element
+                                 can be done from only one side 
+     4.DOUBLE ended Queue: Double Ended Queue is also a Queue  data structure in which the instertion and deletion 
+                           operations are performed at both the ends.
+     5.Priority Queue: A priority queue is a special type of queue in which each elements is associated with a priority .
+                
+5.Why should I use stack or Queue data structures instead of arrays or Lists,and when should i use them?
+ans.use a queue when you want to get things out in the order that you  put them in. use a stack when 
+    you want to get things out in the reverse order than you put them in.use a list when you want to 
+    get anything out,regardless of when you put them in.
+
+6.What is the significance of Stack  being a recursive data structutures?
+ans.IN computer science ,recursion is a method of solving a computational
+ problem where the solution depends on solutions to smaller instances of the same problem.
+ Recursion solves such recursive problems by using functions that call themselves from within their owncode.
+    
